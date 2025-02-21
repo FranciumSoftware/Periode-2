@@ -1,0 +1,118 @@
+1,007 94 g/mol
+4,002 602 g/mol
+6,941 g/mol
+9,012 182 g/mol
+10,811 g/mol
+12,011 g/mol
+14,006 74 g/mol
+15,999 4 g/mol
+18,998 403 2 g/mol
+20,179 7 g/mol
+22,989 768 g/mol
+24,305 g/mol
+26,981 539 g/mol
+28,085 5 g/mol
+30,973 762 g/mol
+32,066 g/mol
+35,452 7 g/mol
+39,948 g/mol
+39,098 3 g/mol
+40,078 g/mol
+44,955 91 g/mol
+47,88 g/mol
+50,941 5 g/mol
+51,996 1 g/mol
+54,938 05 g/mol
+55,847 g/mol
+58,933 2 g/mol
+58,69 g/mol
+63,546 g/mol
+65,39 g/mol
+69,723 g/mol
+72,61 g/mol
+74,921 59 g/mol
+78,96 g/mol
+79,904 g/mol
+83,8 g/mol
+85,467 8 g/mol
+87,62 g/mol
+88,905 85 g/mol
+91,224 g/mol
+92,906 38 g/mol
+95,94 g/mol
+98,906 3 g/mol
+101,07 g/mol
+102,905 5 g/mol
+106,42 g/mol
+107,868 2 g/mol
+112,411 g/mol
+114,82 g/mol
+118,71 g/mol
+121,75 g/mol
+127,6 g/mol
+126,904 47 g/mol
+131,29 g/mol
+132,905 43 g/mol
+137,327 g/mol
+138,905 5 g/mol
+140,115 g/mol
+140,907 65 g/mol
+144,24 g/mol
+146,915 1 g/mol
+150,36 g/mol
+151,965 g/mol
+157,25 g/mol
+158,925 34 g/mol
+162,5 g/mol
+164,930 32 g/mol
+167,26 g/mol
+168,934 21 g/mol
+173,04 g/mol
+174,967 g/mol
+178,49 g/mol
+180,947 9 g/mol
+183,85 g/mol
+186,207 g/mol
+190,2 g/mol
+192,22 g/mol
+195,08 g/mol
+196,966 54 g/mol
+200,59 g/mol
+204,383 3 g/mol
+207,2 g/mol
+208,980 37 g/mol
+208,982 4 g/mol
+209,987 1 g/mol
+222,017 6 g/mol
+223,019 7 g/mol
+226,025 4 g/mol
+227,027 8 g/mol
+232,038 1 g/mol
+231,035 9 g/mol
+238,028 9 g/mol
+237,048 2 g/mol
+244,064 2 g/mol
+243,061 4 g/mol
+247,070 3 g/mol
+247,070 3 g/mol
+251,079 6 g/mol
+252,082 9 g/mol
+257,095 1 g/mol
+258,098 6 g/mol
+259,100 9 g/mol
+260,105 3 g/mol
+261,108 7 g/mol
+262,113 8 g/mol
+263,118 2 g/mol
+262,122 9 g/mol
+265 g/mol
+266 g/mol
+269 g/mol
+272 g/mol
+277 g/mol
+286 g/mol
+289 g/mol
+289 g/mol
+293 g/mol
+294 g/mol
+294 g/mol

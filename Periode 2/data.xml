@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1
+- Généré le : mer. 05 fév. 2025 à 15:18
+- Version du serveur : 10.4.32-MariaDB
+- Version de PHP : 8.2.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="periode" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="data">
+                CREATE TABLE `data` (
+                  `Numeros` text DEFAULT NULL,
+                  `Abbreviation` text DEFAULT NULL,
+                  `Nom` text DEFAULT NULL,
+                  `Annee` text DEFAULT NULL,
+                  `Personne` text DEFAULT NULL,
+                  `Image` text DEFAULT NULL,
+                  `Groupe` text DEFAULT NULL,
+                  `Periode` text DEFAULT NULL,
+                  `Masse` text DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'periode'
+    -->
+    <database name="periode">
+        <!-- Table data -->
+        <table name="data">
+            <column name="Numeros">1</column>
+            <column name="Abbreviation">H</column>
+            <column name="Nom">Hydrogène</column>
+            <column name="Annee">1766</column>
+            <column name="Personne">Cavendish </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Liquid_hydrogen_bubblechamber.jpg/330px-Liquid_hydrogen_bubblechamber.jpg</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">1</column>
+            <column name="Masse">1,007 94 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">2</column>
+            <column name="Abbreviation">He</column>
+            <column name="Nom">Hélium</column>
+            <column name="Annee">1895</column>
+            <column name="Personne">Ramsay et Cleve </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Liquid_helium_superfluid_phase.jpg/330px-Liquid_helium_superfluid_phase.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">1</column>
+            <column name="Masse">4,002 602 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">3</column>
+            <column name="Abbreviation">Li</column>
+            <column name="Nom">Lithium</column>
+            <column name="Annee">1817</column>
+            <column name="Personne">Arfvedson </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Lithium_paraffin.jpg/330px-Lithium_paraffin.jpg</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">2</column>
+            <column name="Masse">6,941 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">4</column>
+            <column name="Abbreviation">Be</column>
+            <column name="Nom">Béryllium</column>
+            <column name="Annee">1797</column>
+            <column name="Personne">Vauquelin </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Beryllium_nuggets_2.jpg/330px-Beryllium_nuggets_2.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">2</column>
+            <column name="Masse">9,012 182 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">5</column>
+            <column name="Abbreviation">B</column>
+            <column name="Nom">Bore</column>
+            <column name="Annee">1808</column>
+            <column name="Personne">Davy et Gay-Lussac </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Boron_R105.jpg/330px-Boron_R105.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">2</column>
+            <column name="Masse">10,811 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">6</column>
+            <column name="Abbreviation">C</column>
+            <column name="Nom">Carbone</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Graphite-and-diamond-with-scale.jpg/330px-Graphite-and-diamond-with-scale.jpg</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">2</column>
+            <column name="Masse">12,011 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">7</column>
+            <column name="Abbreviation">N</column>
+            <column name="Nom">Azote</column>
+            <column name="Annee">1772</column>
+            <column name="Personne">Rutherford </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/LN22.jpg/330px-LN22.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">2</column>
+            <column name="Masse">14,006 74 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">8</column>
+            <column name="Abbreviation">O</column>
+            <column name="Nom">Oxygène</column>
+            <column name="Annee">1774</column>
+            <column name="Personne">Priestley et Scheele </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Liquid_oxygen_in_a_beaker_4.jpg/255px-Liquid_oxygen_in_a_beaker_4.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">2</column>
+            <column name="Masse">15,999 4 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">9</column>
+            <column name="Abbreviation">F</column>
+            <column name="Nom">Fluor</column>
+            <column name="Annee">1886</column>
+            <column name="Personne">Moissan </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg/330px-Fluoro_liquido_a_-196%C2%B0C_1.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">2</column>
+            <column name="Masse">18,998 403 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">10</column>
+            <column name="Abbreviation">Ne</column>
+            <column name="Nom">Néon</column>
+            <column name="Annee">1898</column>
+            <column name="Personne">Ramsay et Travers </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%C4%8Cerven%C3%BD_fosfor.png/330px-%C4%8Cerven%C3%BD_fosfor.png</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">2</column>
+            <column name="Masse">20,179 7 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">11</column>
+            <column name="Abbreviation">Na</column>
+            <column name="Nom">Sodium</column>
+            <column name="Annee">1807</column>
+            <column name="Personne">Davy </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sulfur-sample.jpg/330px-Sulfur-sample.jpg</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">3</column>
+            <column name="Masse">22,989 768 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">12</column>
+            <column name="Abbreviation">Mg</column>
+            <column name="Nom">Magnésium</column>
+            <column name="Annee">1755</column>
+            <column name="Personne">Black </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chlorine_liquid_in_an_ampoule.jpg/330px-Chlorine_liquid_in_an_ampoule.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">3</column>
+            <column name="Masse">24,305 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">13</column>
+            <column name="Abbreviation">Al</column>
+            <column name="Nom">Aluminium</column>
+            <column name="Annee">1825</column>
+            <column name="Personne">Ørsted </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Argon_ice_3.jpg/330px-Argon_ice_3.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">3</column>
+            <column name="Masse">26,981 539 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">14</column>
+            <column name="Abbreviation">Si</column>
+            <column name="Nom">Silicium</column>
+            <column name="Annee">1824</column>
+            <column name="Personne">Berzelius </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Potassium.JPG/330px-Potassium.JPG</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">3</column>
+            <column name="Masse">28,085 5 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">15</column>
+            <column name="Abbreviation">P</column>
+            <column name="Nom">Phosphore</column>
+            <column name="Annee">1669</column>
+            <column name="Personne">Brand </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Calcium_in_tube_2.jpg/330px-Calcium_in_tube_2.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">3</column>
+            <column name="Masse">30,973 762 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">16</column>
+            <column name="Abbreviation">S</column>
+            <column name="Nom">Soufre</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Scandium_sublimed_dendritic_and_1cm3_cube.jpg/330px-Scandium_sublimed_dendritic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">3</column>
+            <column name="Masse">32,066 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">17</column>
+            <column name="Abbreviation">Cl</column>
+            <column name="Nom">Chlore</column>
+            <column name="Annee">1774</column>
+            <column name="Personne">Scheele </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Neon_discharge_tube.jpg/330px-Neon_discharge_tube.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">3</column>
+            <column name="Masse">35,452 7 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">18</column>
+            <column name="Abbreviation">Ar</column>
+            <column name="Nom">Argon</column>
+            <column name="Annee">1894</column>
+            <column name="Personne">Ramsay et Rayleigh </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sodium.jpg/330px-Sodium.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">3</column>
+            <column name="Masse">39,948 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">19</column>
+            <column name="Abbreviation">K</column>
+            <column name="Nom">Potassium</column>
+            <column name="Annee">1807</column>
+            <column name="Personne">Davy </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Magnesium_crystals.jpg/330px-Magnesium_crystals.jpg</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">4</column>
+            <column name="Masse">39,098 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">20</column>
+            <column name="Abbreviation">Ca</column>
+            <column name="Nom">Calcium</column>
+            <column name="Annee">1808</column>
+            <column name="Personne">Davy </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Aluminium-4.jpg/330px-Aluminium-4.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">4</column>
+            <column name="Masse">40,078 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">21</column>
+            <column name="Abbreviation">Sc</column>
+            <column name="Nom">Scandium</column>
+            <column name="Annee">1879</column>
+            <column name="Personne">Nilson </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Silicon2.jpg/330px-Silicon2.jpg</column>
+            <column name="Groupe">3</column>
+            <column name="Periode">4</column>
+            <column name="Masse">44,955 91 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">22</column>
+            <column name="Abbreviation">Ti</column>
+            <column name="Nom">Titane</column>
+            <column name="Annee">1791</column>
+            <column name="Personne">Gregor et Klaproth </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Titan-crystal_bar.JPG/330px-Titan-crystal_bar.JPG</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">4</column>
+            <column name="Masse">47,88 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">23</column>
+            <column name="Abbreviation">V</column>
+            <column name="Nom">Vanadium</column>
+            <column name="Annee">1801</column>
+            <column name="Personne">del Río </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vanadium2.jpg/330px-Vanadium2.jpg</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">4</column>
+            <column name="Masse">50,941 5 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">24</column>
+            <column name="Abbreviation">Cr</column>
+            <column name="Nom">Chrome</column>
+            <column name="Annee">1797</column>
+            <column name="Personne">Vauquelin </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chromium_zone_refined_and_1cm3_cube.jpg/330px-Chromium_zone_refined_and_1cm3_cube.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">4</column>
+            <column name="Masse">51,996 1 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">25</column>
+            <column name="Abbreviation">Mn</column>
+            <column name="Nom">Manganèse</column>
+            <column name="Annee">1774</column>
+            <column name="Personne">Gahn </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Macro_image_of_manganese_f32.0.JPG/330px-Macro_image_of_manganese_f32.0.JPG</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">4</column>
+            <column name="Masse">54,938 05 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">26</column>
+            <column name="Abbreviation">Fe</column>
+            <column name="Nom">Fer</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Iron_electrolytic_and_1cm3_cube.jpg/330px-Iron_electrolytic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">4</column>
+            <column name="Masse">55,847 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">27</column>
+            <column name="Abbreviation">Co</column>
+            <column name="Nom">Cobalt</column>
+            <column name="Annee">1735</column>
+            <column name="Personne">Brand </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg/330px-Kobalt_electrolytic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">4</column>
+            <column name="Masse">58,933 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">28</column>
+            <column name="Abbreviation">Ni</column>
+            <column name="Nom">Nickel</column>
+            <column name="Annee">1751</column>
+            <column name="Personne">Cronstedt </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Nickel_electrolytic_and_1cm3_cube.jpg/330px-Nickel_electrolytic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">4</column>
+            <column name="Masse">58,69 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">29</column>
+            <column name="Abbreviation">Cu</column>
+            <column name="Nom">Cuivre</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/NatCopper.jpg/330px-NatCopper.jpg</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">4</column>
+            <column name="Masse">63,546 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">30</column>
+            <column name="Abbreviation">Zn</column>
+            <column name="Nom">Zinc</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Zinc_fragment_sublimed_and_1cm3_cube.jpg/330px-Zinc_fragment_sublimed_and_1cm3_cube.jpg</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">4</column>
+            <column name="Masse">65,39 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">31</column>
+            <column name="Abbreviation">Ga</column>
+            <column name="Nom">Gallium</column>
+            <column name="Annee">1875</column>
+            <column name="Personne">Lecoq de Boisbaudran </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Solid_gallium_%28Ga%29.jpg/330px-Solid_gallium_%28Ga%29.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">4</column>
+            <column name="Masse">69,723 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">32</column>
+            <column name="Abbreviation">Ge</column>
+            <column name="Nom">Germanium</column>
+            <column name="Annee">1886</column>
+            <column name="Personne">Winkler </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Polycrystalline-germanium.jpg/330px-Polycrystalline-germanium.jpg</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">4</column>
+            <column name="Masse">72,61 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">33</column>
+            <column name="Abbreviation">As</column>
+            <column name="Nom">Arsenic</column>
+            <column name="Annee">vers 1250</column>
+            <column name="Personne">Albert le Grand </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Arsen_1a.jpg/330px-Arsen_1a.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">4</column>
+            <column name="Masse">74,921 59 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">34</column>
+            <column name="Abbreviation">Se</column>
+            <column name="Nom">Sélénium</column>
+            <column name="Annee">1817</column>
+            <column name="Personne">Berzelius </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Grey_selenium.jpg/330px-Grey_selenium.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">4</column>
+            <column name="Masse">78,96 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">35</column>
+            <column name="Abbreviation">Br</column>
+            <column name="Nom">Brome</column>
+            <column name="Annee">1826</column>
+            <column name="Personne">Balard </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bromine-ampoule.jpg/330px-Bromine-ampoule.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">4</column>
+            <column name="Masse">79,904 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">36</column>
+            <column name="Abbreviation">Kr</column>
+            <column name="Nom">Krypton</column>
+            <column name="Annee">1898</column>
+            <column name="Personne">Ramsay et Travers </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Krypton_discharge_tube.jpg/330px-Krypton_discharge_tube.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">4</column>
+            <column name="Masse">83,8 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">37</column>
+            <column name="Abbreviation">Rb</column>
+            <column name="Nom">Rubidium</column>
+            <column name="Annee">1861</column>
+            <column name="Personne">Bunsen et Kirchhoff </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/RbH.JPG/330px-RbH.JPG</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">5</column>
+            <column name="Masse">85,467 8 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">38</column>
+            <column name="Abbreviation">Sr</column>
+            <column name="Nom">Strontium</column>
+            <column name="Annee">1790</column>
+            <column name="Personne">Crawford </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Strontium_destilled_crystals.jpg/330px-Strontium_destilled_crystals.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">5</column>
+            <column name="Masse">87,62 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">39</column>
+            <column name="Abbreviation">Y</column>
+            <column name="Nom">Yttrium</column>
+            <column name="Annee">1794</column>
+            <column name="Personne">Gadolin </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg/330px-Yttrium_sublimed_dendritic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">3</column>
+            <column name="Periode">5</column>
+            <column name="Masse">88,905 85 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">40</column>
+            <column name="Abbreviation">Zr</column>
+            <column name="Nom">Zirconium</column>
+            <column name="Annee">1789</column>
+            <column name="Personne">Klaproth </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg/330px-Zirconium_crystal_bar_and_1cm3_cube.jpg</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">5</column>
+            <column name="Masse">91,224 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">41</column>
+            <column name="Abbreviation">Nb</column>
+            <column name="Nom">Niobium</column>
+            <column name="Annee">1801</column>
+            <column name="Personne">Hatchet </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Niobium_crystals_and_1cm3_cube.jpg/330px-Niobium_crystals_and_1cm3_cube.jpg</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">5</column>
+            <column name="Masse">92,906 38 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">42</column>
+            <column name="Abbreviation">Mo</column>
+            <column name="Nom">Molybdène</column>
+            <column name="Annee">1778</column>
+            <column name="Personne">Scheele </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg/330px-Molybdenum_crystaline_fragment_and_1cm3_cube.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">5</column>
+            <column name="Masse">95,94 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">43</column>
+            <column name="Abbreviation">Tc</column>
+            <column name="Nom">Technétium</column>
+            <column name="Annee">1937</column>
+            <column name="Personne">Perrier et Segrè </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">5</column>
+            <column name="Masse">98,906 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">44</column>
+            <column name="Abbreviation">Ru</column>
+            <column name="Nom">Ruthénium</column>
+            <column name="Annee">1844</column>
+            <column name="Personne">Claus </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ruthenium_crystal.jpg/330px-Ruthenium_crystal.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">5</column>
+            <column name="Masse">101,07 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">45</column>
+            <column name="Abbreviation">Rh</column>
+            <column name="Nom">Rhodium</column>
+            <column name="Annee">1803</column>
+            <column name="Personne">Wollaston </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rhodium_powder_pressed_melted.jpg/330px-Rhodium_powder_pressed_melted.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">5</column>
+            <column name="Masse">102,905 5 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">46</column>
+            <column name="Abbreviation">Pd</column>
+            <column name="Nom">Palladium</column>
+            <column name="Annee">1803</column>
+            <column name="Personne">Wollaston </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/b/b0/Palladium_1.jpg</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">5</column>
+            <column name="Masse">106,42 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">47</column>
+            <column name="Abbreviation">Ag</column>
+            <column name="Nom">Argent</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/330px-Silver_crystal.jpg</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">5</column>
+            <column name="Masse">107,868 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">48</column>
+            <column name="Abbreviation">Cd</column>
+            <column name="Nom">Cadmium</column>
+            <column name="Annee">1817</column>
+            <column name="Personne">Stromeyer et Hermann </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cadmium-crystal_bar.jpg/330px-Cadmium-crystal_bar.jpg</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">5</column>
+            <column name="Masse">112,411 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">49</column>
+            <column name="Abbreviation">In</column>
+            <column name="Nom">Indium</column>
+            <column name="Annee">1863</column>
+            <column name="Personne">Reich et Richter </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Indium_%2849_In%29.jpg/330px-Indium_%2849_In%29.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">5</column>
+            <column name="Masse">114,82 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">50</column>
+            <column name="Abbreviation">Sn</column>
+            <column name="Nom">Étain</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jinshu_Xi.JPG/330px-Jinshu_Xi.JPG</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">5</column>
+            <column name="Masse">118,71 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">51</column>
+            <column name="Abbreviation">Sb</column>
+            <column name="Nom">Antimoine</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Antimony-4.jpg/330px-Antimony-4.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">5</column>
+            <column name="Masse">121,75 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">52</column>
+            <column name="Abbreviation">Te</column>
+            <column name="Nom">Tellure</column>
+            <column name="Annee">1782</column>
+            <column name="Personne">von Reichenstein </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tellurium2.jpg/330px-Tellurium2.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">5</column>
+            <column name="Masse">127,6 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">53</column>
+            <column name="Abbreviation">I</column>
+            <column name="Nom">Iode</column>
+            <column name="Annee">1811</column>
+            <column name="Personne">Courtois </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Iodine_crystals_grown_from_the_gas_phase_of_iodine.jpg/330px-Iodine_crystals_grown_from_the_gas_phase_of_iodine.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">5</column>
+            <column name="Masse">126,904 47 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">54</column>
+            <column name="Abbreviation">Xe</column>
+            <column name="Nom">Xénon</column>
+            <column name="Annee">1898</column>
+            <column name="Personne">Ramsay et Travers </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Liquid_xenon2.jpg/165px-Liquid_xenon2.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">5</column>
+            <column name="Masse">131,29 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">55</column>
+            <column name="Abbreviation">Cs</column>
+            <column name="Nom">Césium</column>
+            <column name="Annee">1860</column>
+            <column name="Personne">Kirchhoff et Bunsen </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/CsCrystals.JPG/330px-CsCrystals.JPG</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">6</column>
+            <column name="Masse">132,905 43 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">56</column>
+            <column name="Abbreviation">Ba</column>
+            <column name="Nom">Baryum</column>
+            <column name="Annee">1808</column>
+            <column name="Personne">Davy </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Barium_unter_Argon_Schutzgas_Atmosph%C3%A4re.jpg/330px-Barium_unter_Argon_Schutzgas_Atmosph%C3%A4re.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">6</column>
+            <column name="Masse">137,327 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">57</column>
+            <column name="Abbreviation">La</column>
+            <column name="Nom">Lanthane</column>
+            <column name="Annee">1839</column>
+            <column name="Personne">Mosander </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/8/8f/Lanthan_1-cropflipped.jpg</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">6</column>
+            <column name="Masse">138,905 5 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">58</column>
+            <column name="Abbreviation">Ce</column>
+            <column name="Nom">Cérium</column>
+            <column name="Annee">1803</column>
+            <column name="Personne">Hisinger et Berzelius </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/CE2k2g.jpg/330px-CE2k2g.jpg</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">6</column>
+            <column name="Masse">140,115 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">59</column>
+            <column name="Abbreviation">Pr</column>
+            <column name="Nom">Praséodyme</column>
+            <column name="Annee">1895</column>
+            <column name="Personne">von Welsbach </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/4/45/Praseodym_1-cropflipped.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">6</column>
+            <column name="Masse">140,907 65 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">60</column>
+            <column name="Abbreviation">Nd</column>
+            <column name="Nom">Néodyme</column>
+            <column name="Annee">1895</column>
+            <column name="Personne">von Welsbach </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Neodymium2.jpg/330px-Neodymium2.jpg</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">6</column>
+            <column name="Masse">144,24 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">61</column>
+            <column name="Abbreviation">Pm</column>
+            <column name="Nom">Prométhium</column>
+            <column name="Annee">1945</column>
+            <column name="Personne">Marinsky et Glendenin </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Pm%2C61.jpg/200px-Pm%2C61.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">6</column>
+            <column name="Masse">146,915 1 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">62</column>
+            <column name="Abbreviation">Sm</column>
+            <column name="Nom">Samarium</column>
+            <column name="Annee">1879</column>
+            <column name="Personne">Lecoq de Boisbaudran </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Samarium_element.jpg/330px-Samarium_element.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">6</column>
+            <column name="Masse">150,36 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">63</column>
+            <column name="Abbreviation">Eu</column>
+            <column name="Nom">Europium</column>
+            <column name="Annee">1901</column>
+            <column name="Personne">Demarçay </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Europium.jpg/330px-Europium.jpg</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">6</column>
+            <column name="Masse">151,965 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">64</column>
+            <column name="Abbreviation">Gd</column>
+            <column name="Nom">Gadolinium</column>
+            <column name="Annee">1880</column>
+            <column name="Personne">de Marignac </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ultrapure_amorphous_gadolinium%2C_12_grams.jpg/330px-Ultrapure_amorphous_gadolinium%2C_12_grams.jpg</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">6</column>
+            <column name="Masse">157,25 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">65</column>
+            <column name="Abbreviation">Tb</column>
+            <column name="Nom">Terbium</column>
+            <column name="Annee">1843</column>
+            <column name="Personne">Mosander </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pure_terbium%2C_3_grams._Original_size_-_1_cm.jpg/330px-Pure_terbium%2C_3_grams._Original_size_-_1_cm.jpg</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">6</column>
+            <column name="Masse">158,925 34 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">66</column>
+            <column name="Abbreviation">Dy</column>
+            <column name="Nom">Dysprosium</column>
+            <column name="Annee">1886</column>
+            <column name="Personne">Lecoq de Boisbaudran </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/e/e7/Dysprosium.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">6</column>
+            <column name="Masse">162,5 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">67</column>
+            <column name="Abbreviation">Ho</column>
+            <column name="Nom">Holmium</column>
+            <column name="Annee">1879</column>
+            <column name="Personne">Cleve </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Holmium_shards.jpg/330px-Holmium_shards.jpg</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">6</column>
+            <column name="Masse">164,930 32 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">68</column>
+            <column name="Abbreviation">Er</column>
+            <column name="Nom">Erbium</column>
+            <column name="Annee">1842</column>
+            <column name="Personne">Mosander </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/1/12/Erbium-crop.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">6</column>
+            <column name="Masse">167,26 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">69</column>
+            <column name="Abbreviation">Tm</column>
+            <column name="Nom">Thulium</column>
+            <column name="Annee">1879</column>
+            <column name="Personne">Cleve </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Thulium_sublimed_dendritic_and_1cm3_cube.jpg/330px-Thulium_sublimed_dendritic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">6</column>
+            <column name="Masse">168,934 21 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">70</column>
+            <column name="Abbreviation">Yb</column>
+            <column name="Nom">Ytterbium</column>
+            <column name="Annee">1878</column>
+            <column name="Personne">de Marignac </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ultrapure_ytterbium%2C_2_grams._Original_size_in_cm_-_1_x_1.5.jpg/330px-Ultrapure_ytterbium%2C_2_grams._Original_size_in_cm_-_1_x_1.5.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">6</column>
+            <column name="Masse">173,04 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">71</column>
+            <column name="Abbreviation">Lu</column>
+            <column name="Nom">Lutécium</column>
+            <column name="Annee">1907</column>
+            <column name="Personne">Urbain et von Welsbach </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Lutetium_1cm3_cube.jpg/330px-Lutetium_1cm3_cube.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">6</column>
+            <column name="Masse">174,967 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">72</column>
+            <column name="Abbreviation">Hf</column>
+            <column name="Nom">Hafnium</column>
+            <column name="Annee">1923</column>
+            <column name="Personne">Coster et de Hevesy </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hafnium_crystal.jpg/330px-Hafnium_crystal.jpg</column>
+            <column name="Groupe">1</column>
+            <column name="Periode">7</column>
+            <column name="Masse">178,49 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">73</column>
+            <column name="Abbreviation">Ta</column>
+            <column name="Nom">Tantale</column>
+            <column name="Annee">1802</column>
+            <column name="Personne">Ekeberg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tantal_1.jpg/330px-Tantal_1.jpg</column>
+            <column name="Groupe">2</column>
+            <column name="Periode">7</column>
+            <column name="Masse">180,947 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">74</column>
+            <column name="Abbreviation">W</column>
+            <column name="Nom">Tungstène</column>
+            <column name="Annee">1783</column>
+            <column name="Personne">de Elhúyar (Fausto et Juan José) </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wolfram_evaporated_crystals_and_1cm3_cube.jpg/330px-Wolfram_evaporated_crystals_and_1cm3_cube.jpg</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">7</column>
+            <column name="Masse">183,85 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">75</column>
+            <column name="Abbreviation">Re</column>
+            <column name="Nom">Rhénium</column>
+            <column name="Annee">1925</column>
+            <column name="Personne">Noddack, Tacke et Berg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rhenium_Schmelzperle.JPG/330px-Rhenium_Schmelzperle.JPG</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">7</column>
+            <column name="Masse">186,207 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">76</column>
+            <column name="Abbreviation">Os</column>
+            <column name="Nom">Osmium</column>
+            <column name="Annee">1803</column>
+            <column name="Personne">Tennant </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Osmium_crystals.jpg/330px-Osmium_crystals.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">7</column>
+            <column name="Masse">190,2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">77</column>
+            <column name="Abbreviation">Ir</column>
+            <column name="Nom">Iridium</column>
+            <column name="Annee">1803</column>
+            <column name="Personne">Tennant et Andere </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Iridium-2.jpg/330px-Iridium-2.jpg</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">7</column>
+            <column name="Masse">192,22 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">78</column>
+            <column name="Abbreviation">Pt</column>
+            <column name="Nom">Platine</column>
+            <column name="Annee">1557</column>
+            <column name="Personne">Scaliger </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/330px-Platinum_crystals.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">7</column>
+            <column name="Masse">195,08 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">79</column>
+            <column name="Abbreviation">Au</column>
+            <column name="Nom">Or</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gold_nugget_%28placer_gold%29_1_%2817001285916%29.jpg/330px-Gold_nugget_%28placer_gold%29_1_%2817001285916%29.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">7</column>
+            <column name="Masse">196,966 54 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">80</column>
+            <column name="Abbreviation">Hg</column>
+            <column name="Nom">Mercure</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pouring_liquid_mercury_bionerd.jpg/330px-Pouring_liquid_mercury_bionerd.jpg</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">7</column>
+            <column name="Masse">200,59 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">81</column>
+            <column name="Abbreviation">Tl</column>
+            <column name="Nom">Thallium</column>
+            <column name="Annee">1861</column>
+            <column name="Personne">Crookes </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Thallium_%2881_Tl%29.jpg/330px-Thallium_%2881_Tl%29.jpg</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">7</column>
+            <column name="Masse">204,383 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">82</column>
+            <column name="Abbreviation">Pb</column>
+            <column name="Nom">Plomb</column>
+            <column name="Annee">inconnue</column>
+            <column name="Personne">inconnu </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Lead_electrolytic_and_1cm3_cube.jpg/330px-Lead_electrolytic_and_1cm3_cube.jpg</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">7</column>
+            <column name="Masse">207,2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">83</column>
+            <column name="Abbreviation">Bi</column>
+            <column name="Nom">Bismuth</column>
+            <column name="Annee">1540</column>
+            <column name="Personne">Agricola </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bismuth-3.jpg/330px-Bismuth-3.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">7</column>
+            <column name="Masse">208,980 37 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">84</column>
+            <column name="Abbreviation">Po</column>
+            <column name="Nom">Polonium</column>
+            <column name="Annee">1898</column>
+            <column name="Personne">Curie (Marie et Pierre) </column>
+            <column name="Image">https://cdn-blog.superprof.com/blog_ressources_fr/wp-content/uploads/2017/03/pechblende-polonium-decouverte.png</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">7</column>
+            <column name="Masse">208,982 4 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">85</column>
+            <column name="Abbreviation">At</column>
+            <column name="Nom">Astate</column>
+            <column name="Annee">1940</column>
+            <column name="Personne">Corson, MacKenzie et Segrè </column>
+            <column name="Image">https://www.lenntech.com/deutsch/bilder/Astat.jpg</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">7</column>
+            <column name="Masse">209,987 1 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">86</column>
+            <column name="Abbreviation">Rn</column>
+            <column name="Nom">Radon</column>
+            <column name="Annee">1900</column>
+            <column name="Personne">Dorn </column>
+            <column name="Image">https://cdn3.vectorstock.com/i/1000x1000/97/82/diagram-representation-of-the-element-radon-vector-6009782.jpg</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">7</column>
+            <column name="Masse">222,017 6 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">87</column>
+            <column name="Abbreviation">Fr</column>
+            <column name="Nom">Francium</column>
+            <column name="Annee">1939</column>
+            <column name="Personne">Perey </column>
+            <column name="Image">https://static.wikia.nocookie.net/periodictableofelements/images/f/f3/Enhanced-buzz-12527-1366210293-8.jpg/revision/latest?cb=20150702162258</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">7</column>
+            <column name="Masse">223,019 7 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">88</column>
+            <column name="Abbreviation">Ra</column>
+            <column name="Nom">Radium</column>
+            <column name="Annee">1898</column>
+            <column name="Personne">Curie (Marie et Pierre) </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Radium226.jpg/330px-Radium226.jpg</column>
+            <column name="Groupe">18</column>
+            <column name="Periode">7</column>
+            <column name="Masse">226,025 4 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">89</column>
+            <column name="Abbreviation">Ac</column>
+            <column name="Nom">Actinium</column>
+            <column name="Annee">1899</column>
+            <column name="Personne">Debierne </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Actinium_sample_%2831481701837%29.png/1200px-Actinium_sample_%2831481701837%29.png</column>
+            <column name="Groupe">3</column>
+            <column name="Periode">8</column>
+            <column name="Masse">227,027 8 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">90</column>
+            <column name="Abbreviation">Th</column>
+            <column name="Nom">Thorium</column>
+            <column name="Annee">1829</column>
+            <column name="Personne">Berzelius </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Thorium-1.jpg/330px-Thorium-1.jpg</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">8</column>
+            <column name="Masse">232,038 1 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">91</column>
+            <column name="Abbreviation">Pa</column>
+            <column name="Nom">Protactinium</column>
+            <column name="Annee">1917</column>
+            <column name="Personne">Soddy, Cranston, Meitner et Hahn </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Protactinium-233.jpg/330px-Protactinium-233.jpg</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">8</column>
+            <column name="Masse">231,035 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">92</column>
+            <column name="Abbreviation">U</column>
+            <column name="Nom">Uranium</column>
+            <column name="Annee">1789</column>
+            <column name="Personne">Klaproth </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/HEUraniumC.jpg/330px-HEUraniumC.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">8</column>
+            <column name="Masse">238,028 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">93</column>
+            <column name="Abbreviation">Np</column>
+            <column name="Nom">Neptunium</column>
+            <column name="Annee">1940</column>
+            <column name="Personne">McMillan et Abelson </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/9/90/Neptunium_metal.jpg</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">8</column>
+            <column name="Masse">237,048 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">94</column>
+            <column name="Abbreviation">Pu</column>
+            <column name="Nom">Plutonium</column>
+            <column name="Annee">1940</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Plutonium3.jpg/330px-Plutonium3.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">8</column>
+            <column name="Masse">244,064 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">95</column>
+            <column name="Abbreviation">Am</column>
+            <column name="Nom">Américium</column>
+            <column name="Annee">1944</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Americium_microscope.jpg/330px-Americium_microscope.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">8</column>
+            <column name="Masse">243,061 4 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">96</column>
+            <column name="Abbreviation">Cm</column>
+            <column name="Nom">Curium</column>
+            <column name="Annee">1944</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://i0.wp.com/periodic-table.com/wp-content/uploads/2019/01/Curium.jpg?fit=225%2C225&amp;ssl=1</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">8</column>
+            <column name="Masse">247,070 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">97</column>
+            <column name="Abbreviation">Bk</column>
+            <column name="Nom">Berkélium</column>
+            <column name="Annee">1949</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">8</column>
+            <column name="Masse">247,070 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">98</column>
+            <column name="Abbreviation">Cf</column>
+            <column name="Nom">Californium</column>
+            <column name="Annee">1950</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">8</column>
+            <column name="Masse">251,079 6 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">99</column>
+            <column name="Abbreviation">Es</column>
+            <column name="Nom">Einsteinium</column>
+            <column name="Annee">1952</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">8</column>
+            <column name="Masse">252,082 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">100</column>
+            <column name="Abbreviation">Fm</column>
+            <column name="Nom">Fermium</column>
+            <column name="Annee">1952</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fermium-Ytterbium_Alloy.jpg/220px-Fermium-Ytterbium_Alloy.jpg</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">8</column>
+            <column name="Masse">257,095 1 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">101</column>
+            <column name="Abbreviation">Md</column>
+            <column name="Nom">Mendélévium</column>
+            <column name="Annee">1955</column>
+            <column name="Personne">Seaborg </column>
+            <column name="Image">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcipT4LD7yyVQ6fN44Y9qgFdXhgtHUg7wOYv76OqVAeRjXwCW-lq7QjufIcE2P9FxMCvE&amp;usqp=CAU</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">8</column>
+            <column name="Masse">258,098 6 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">102</column>
+            <column name="Abbreviation">No</column>
+            <column name="Nom">Nobélium</column>
+            <column name="Annee">1958/66</column>
+            <column name="Personne">Flerow ou Seaborg </column>
+            <column name="Image">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFNr_x4AhdqwH6YRDdStLLppkhg6tS1nLObA&amp;s</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">8</column>
+            <column name="Masse">259,100 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">103</column>
+            <column name="Abbreviation">Lr</column>
+            <column name="Nom">Lawrencium</column>
+            <column name="Annee">1961/71</column>
+            <column name="Personne">Flerow ou Ghiorso </column>
+            <column name="Image">https://5.imimg.com/data5/SELLER/Default/2021/11/ET/QH/OK/66886023/pure-lawrencium-500x500.jpg</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">8</column>
+            <column name="Masse">260,105 3 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">104</column>
+            <column name="Abbreviation">Rf</column>
+            <column name="Nom">Rutherfordium</column>
+            <column name="Annee">1964/69</column>
+            <column name="Personne">Flerow ou Ghiorso </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Electron_shell_104_rutherfordium.png/200px-Electron_shell_104_rutherfordium.png</column>
+            <column name="Groupe">3</column>
+            <column name="Periode">9</column>
+            <column name="Masse">261,108 7 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">105</column>
+            <column name="Abbreviation">Db</column>
+            <column name="Nom">Dubnium</column>
+            <column name="Annee">1967/70</column>
+            <column name="Personne">Flerow ou Ghiorso </column>
+            <column name="Image">https://whatmaster.com/wp-content/uploads/2020/10/Einsteinium-L-min-6.jpg</column>
+            <column name="Groupe">4</column>
+            <column name="Periode">9</column>
+            <column name="Masse">262,113 8 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">106</column>
+            <column name="Abbreviation">Sg</column>
+            <column name="Nom">Seaborgium</column>
+            <column name="Annee">1974</column>
+            <column name="Personne">Oganessian ou Ghiorso </column>
+            <column name="Image">https://www.chemistrylearner.com/wp-content/uploads/2018/01/Seaborgium.jpg</column>
+            <column name="Groupe">5</column>
+            <column name="Periode">9</column>
+            <column name="Masse">263,118 2 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">107</column>
+            <column name="Abbreviation">Bh</column>
+            <column name="Nom">Bohrium</column>
+            <column name="Annee">1976/81</column>
+            <column name="Personne">Oganessian ou Munzenberg </column>
+            <column name="Image">https://periodiske-system.dk/img/images/lowRes/107.jpg</column>
+            <column name="Groupe">6</column>
+            <column name="Periode">9</column>
+            <column name="Masse">262,122 9 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">108</column>
+            <column name="Abbreviation">Hs</column>
+            <column name="Nom">Hassium</column>
+            <column name="Annee">1984</column>
+            <column name="Personne">Munzenberg, Centre de recherche sur les ions lourds </column>
+            <column name="Image">https://www.chemistrylearner.com/wp-content/uploads/2018/03/Hassium.jpg</column>
+            <column name="Groupe">7</column>
+            <column name="Periode">9</column>
+            <column name="Masse">265 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">109</column>
+            <column name="Abbreviation">Mt</column>
+            <column name="Nom">Meitnérium</column>
+            <column name="Annee">1982</column>
+            <column name="Personne">Munzenberg, Centre de recherche sur les ions lourds </column>
+            <column name="Image">https://cdn1.byjus.com/wp-content/uploads/2018/08/Meitnerium-2.jpg</column>
+            <column name="Groupe">8</column>
+            <column name="Periode">9</column>
+            <column name="Masse">266 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">110</column>
+            <column name="Abbreviation">Ds</column>
+            <column name="Nom">Darmstadtium</column>
+            <column name="Annee">1994</column>
+            <column name="Personne">Hofmann, Centre de recherche sur les ions lourds </column>
+            <column name="Image">https://cdn1.byjus.com/wp-content/uploads/2018/08/Darmstadtium-2.jpg</column>
+            <column name="Groupe">9</column>
+            <column name="Periode">9</column>
+            <column name="Masse">269 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">111</column>
+            <column name="Abbreviation">Rg</column>
+            <column name="Nom">Roentgenium</column>
+            <column name="Annee">1994</column>
+            <column name="Personne">Hofmann, Centre de recherche sur les ions lourds </column>
+            <column name="Image">https://cdn1.byjus.com/wp-content/uploads/2018/08/Roentgenium-2.jpg</column>
+            <column name="Groupe">10</column>
+            <column name="Periode">9</column>
+            <column name="Masse">272 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">112</column>
+            <column name="Abbreviation">Cn</column>
+            <column name="Nom">Copernicium</column>
+            <column name="Annee">1996</column>
+            <column name="Personne">Hofmann, Centre de recherche sur les ions lourds </column>
+            <column name="Image">https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/Cn2-6.png</column>
+            <column name="Groupe">11</column>
+            <column name="Periode">9</column>
+            <column name="Masse">277 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">113</column>
+            <column name="Abbreviation">Nh</column>
+            <column name="Nom">Nihonium</column>
+            <column name="Annee">2004</column>
+            <column name="Personne">Morita, RIKEN </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Electron_shell_113_Nihonium.svg/1200px-Electron_shell_113_Nihonium.svg.png</column>
+            <column name="Groupe">12</column>
+            <column name="Periode">9</column>
+            <column name="Masse">286 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">114</column>
+            <column name="Abbreviation">Fl</column>
+            <column name="Nom">Flérovium</column>
+            <column name="Annee">2004</column>
+            <column name="Personne">Oganessian, Institut unifié de recherches nucléaires </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Electron_shell_114_Flerovium.svg/200px-Electron_shell_114_Flerovium.svg.png</column>
+            <column name="Groupe">13</column>
+            <column name="Periode">9</column>
+            <column name="Masse">289 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">115</column>
+            <column name="Abbreviation">Mc</column>
+            <column name="Nom">Moscovium</column>
+            <column name="Annee">2010</column>
+            <column name="Personne">Oganessian, Laboratoire national de Lawrence Livermore et Institut unifié de recherches nucléaires </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/d/d2/Electron_shell_115_Moscovium.svg</column>
+            <column name="Groupe">14</column>
+            <column name="Periode">9</column>
+            <column name="Masse">289 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">116</column>
+            <column name="Abbreviation">Lv</column>
+            <column name="Nom">Livermorium</column>
+            <column name="Annee">2004</column>
+            <column name="Personne">Oganessian, Institut unifié de recherches nucléaires </column>
+            <column name="Image">https://upload.wikimedia.org/wikipedia/commons/3/3e/116_livermorium_%28Lv%29_enhanced_Bohr_model.png</column>
+            <column name="Groupe">15</column>
+            <column name="Periode">9</column>
+            <column name="Masse">293 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">117</column>
+            <column name="Abbreviation">Ts</column>
+            <column name="Nom">Tennesse</column>
+            <column name="Annee">2010</column>
+            <column name="Personne">Oganessian, Flerov Laboratory of Nuclear Reactions (FLNR) de l&#039;Institut unifié de recherches nucléaires </column>
+            <column name="Image">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2t4A6NGZm84Qmh-0e3JO5cWdPB-nIjlEgA&amp;s</column>
+            <column name="Groupe">16</column>
+            <column name="Periode">9</column>
+            <column name="Masse">294 g/mol</column>
+        </table>
+        <table name="data">
+            <column name="Numeros">118</column>
+            <column name="Abbreviation">Og</column>
+            <column name="Nom">Oganesson</column>
+            <column name="Annee">2006</column>
+            <column name="Personne">Oganessian, Laboratoire national de Lawrence Livermore et Institut unifié de recherches nucléaires</column>
+            <column name="Image">https://www.ccdc.cam.ac.uk/media/elements/Oganesson/Oganesson.png</column>
+            <column name="Groupe">17</column>
+            <column name="Periode">9</column>
+            <column name="Masse">294 g/mol</column>
+        </table>
+    </database>
+</pma_xml_export>

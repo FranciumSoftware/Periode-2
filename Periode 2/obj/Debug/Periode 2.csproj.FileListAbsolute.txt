@@ -1,0 +1,27 @@
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\bin\Debug\Periode 2.exe.config
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\bin\Debug\Periode 2.exe.manifest
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\bin\Debug\Periode 2.application
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\bin\Debug\Periode 2.exe
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\bin\Debug\Periode 2.pdb
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.csproj.AssemblyReference.cache
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\MainWindow.g.cs
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window1.g.cs
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window2.g.cs
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\App.g.cs
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2_MarkupCompile.cache
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2_MarkupCompile.lref
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\MainWindow.baml
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window1.baml
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window2.baml
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.g.resources
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode_2.Properties.Resources.resources
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode_2.Resource1.resources
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.csproj.GenerateResource.cache
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.csproj.CoreCompileInputs.cache
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.TrustInfo.xml
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.exe.manifest
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.application
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.exe
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Periode 2.pdb
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window3.g.cs
+C:\Users\romai\Documents\Developper\C#\Periode 2\Periode 2\obj\Debug\Window3.baml

@@ -1,0 +1,252 @@
+﻿<Window x:Class="Periode_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Periode_2"
+        mc:Ignorable="d"
+        Title="Periode 2" Height="529" Width="907" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Border"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="#FF7820E5"/>
+                                <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <!-- Menu -->
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Periode" Click="MenuItem_Click">
+                <MenuItem Header="A propos" Click="About"/>
+                <MenuItem Click="GitHub">
+                    <MenuItem.Header>
+                        GitHub
+                    </MenuItem.Header>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Quitter" Click="Exit"/>
+            </MenuItem>
+        </Menu>
+        <Grid Background="#FF210233">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="250*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="108*"/>
+            </Grid.RowDefinitions>
+
+            <Grid ShowGridLines="false" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--Premiere ligne-->
+                <Button Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="H" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="H_Click">H</Button>
+                <Button Grid.Column="17" Grid.Row="0"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="He" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="He_Click">He</Button>
+                <!--Deuxieme ligne-->
+                <Button Grid.Column="0" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Li" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Li_Click">Li</Button>
+                <Button Grid.Column="1" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Be" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Be_Click">Be</Button>
+                <Button Grid.Column="12" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="B" Background="#FFFDF700" Click="B_Click">B</Button>
+                <Button Grid.Column="13" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="C" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="C_Click">C</Button>
+                <Button Grid.Column="14" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="N" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="N_Click">N</Button>
+                <Button Grid.Column="15" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="O" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="O_Click">O</Button>
+                <Button Grid.Column="16" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="F" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="F_Click">F</Button>
+                <Button Grid.Column="17" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ne" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Ne_Click">Ne</Button>
+                <!--Troisieme ligne-->
+                <Button Grid.Column="0" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Na" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Na_Click">Na</Button>
+                <Button Grid.Column="1" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Mg" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Mg_Click">Mg</Button>
+                <Button Grid.Column="12" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Al" Background="#FFFDF700" Click="Al_Click">Al</Button>
+                <Button Grid.Column="13" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Si" Background="#FFFDF700" Click="Si_Click">Si</Button>
+                <Button Grid.Column="14" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="P" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="P_Click">P</Button>
+                <Button Grid.Column="15" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="S" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="S_Click">S</Button>
+                <Button Grid.Column="16" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cl" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Cl_Click">Cl</Button>
+                <Button Grid.Column="17" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ar" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Ar_Click">Ar</Button>
+                <!--Quatrieme ligne-->
+                <Button Grid.Column="0" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="K" Background="#FFF41111" Foreground="#FFFAF5F5" Click="K_Click">K</Button>
+                <Button Grid.Column="1" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ca" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ca_Click">Ca</Button>
+                <Button Grid.Column="2" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sc" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Sc_Click">Sc</Button>
+                <Button Grid.Column="3" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ti" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ti_Click">Ti</Button>
+                <Button Grid.Column="4" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="V" Background="#FFF41111" Foreground="#FFFAF5F5" Click="V_Click">V</Button>
+                <Button Grid.Column="5" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cr" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Cr_Click">Cr</Button>
+                <Button Grid.Column="6" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Mn" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Mn_Click">Mn</Button>
+                <Button Grid.Column="7" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Fe" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Fe_Click">Fe</Button>
+                <Button Grid.Column="8" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Co" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Co_Click">Co</Button>
+                <Button Grid.Column="9" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ni" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ni_Click">Ni</Button>
+                <Button Grid.Column="10" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cu" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Cu_Click">Cu</Button>
+                <Button Grid.Column="11" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Zn" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Zn_Click">Zn</Button>
+                <Button Grid.Column="12" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ga" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ga_Click">Ga</Button>
+                <Button Grid.Column="13" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ge" Background="#FFFDF700" Click="Ge_Click">Ce</Button>
+                <Button Grid.Column="14" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="As" Background="#FFFDF700" Click="As_Click">As</Button>
+                <Button Grid.Column="15" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Se" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Se_Click">Se</Button>
+                <Button Grid.Column="16" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Br" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Br_Click">Br</Button>
+                <Button Grid.Column="17" Grid.Row="3"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Kr" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Kr_Click">Kr</Button>
+                <!--Ciquieme ligne-->
+                <Button Grid.Column="0" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Rb" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Rb_Click">Rb</Button>
+                <Button Grid.Column="1" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sr" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Sr_Click">Sr</Button>
+                <Button Grid.Column="2" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Y" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Y_Click">Y</Button>
+                <Button Grid.Column="3" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Zr" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Zr_Click">Zr</Button>
+                <Button Grid.Column="4" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Nb" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Nb_Click">Nb</Button>
+                <Button Grid.Column="5" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Mo" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Mo_Click">Mo</Button>
+                <Button Grid.Column="6" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Tc" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Tc_Click">Tc</Button>
+                <Button Grid.Column="7" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ru" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ru_Click">Ru</Button>
+                <Button Grid.Column="8" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Rh" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Rh_Click">Rh</Button>
+                <Button Grid.Column="9" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pd" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Pd_Click">Pd</Button>
+                <Button Grid.Column="10" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ag" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ag_Click">Ag</Button>
+                <Button Grid.Column="11" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cd" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Cd_Click">Cd</Button>
+                <Button Grid.Column="12" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="In" Background="#FFF41111" Foreground="#FFFAF5F5" Click="In_Click">In</Button>
+                <Button Grid.Column="13" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sn" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Sn_Click">Sn</Button>
+                <Button Grid.Column="14" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sb" Background="#FFFDF700" Click="Sb_Click">Sb</Button>
+                <Button Grid.Column="15" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Te" Background="#FFFDF700" Click="Te_Click">Te</Button>
+                <Button Grid.Column="16" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="I" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="I_Click">I</Button>
+                <Button Grid.Column="17" Grid.Row="4"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Xe" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Xe_Click">Xe</Button>
+                <!--Sixieme ligne-->
+                <Button Grid.Column="0" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cs" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Cs_Click">Cs</Button>
+                <Button Grid.Column="1" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ba" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ba_Click">Ba</Button>
+                <Button Grid.Column="2" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Lanta" Background="#FFF41111" Foreground="#FFFAF5F5">Lanta</Button>
+                <Button Grid.Column="3" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Hf" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Hf_Click">Hf</Button>
+                <Button Grid.Column="4" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ta" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ta_Click">Ta</Button>
+                <Button Grid.Column="5" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="W" Background="#FFF41111" Foreground="#FFFAF5F5" Click="W_Click">W</Button>
+                <Button Grid.Column="6" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Re" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Re_Click">Re</Button>
+                <Button Grid.Column="7" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Os" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Os_Click">Os</Button>
+                <Button Grid.Column="8" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ir" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ir_Click">Ir</Button>
+                <Button Grid.Column="9" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pt" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Pt_Click">Pt</Button>
+                <Button Grid.Column="10" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Au" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Au_Click">Au</Button>
+                <Button Grid.Column="11" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Hg" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Hg_Click">Hg</Button>
+                <Button Grid.Column="12" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Tl" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Tl_Click">Tl</Button>
+                <Button Grid.Column="13" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pb" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Pb_Click">Pb</Button>
+                <Button Grid.Column="14" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Bi" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Bi_Click">Bi</Button>
+                <Button Grid.Column="15" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Po" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Po_Click">Po</Button>
+                <Button Grid.Column="16" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="At" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="At_Click">At</Button>
+                <Button Grid.Column="17" Grid.Row="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Rn" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Rn_Click">Rn</Button>
+                <!--Ciquieme ligne-->
+                <Button Grid.Column="0" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Fr" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Fr_Click">Fr</Button>
+                <Button Grid.Column="1" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ra" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Ra_Click">Ra</Button>
+                <Button Grid.Column="2" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Acti" Background="#FFF41111" Foreground="#FFFAF5F5">Acti</Button>
+                <Button Grid.Column="3" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Rf" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Rf_Click">Rf</Button>
+                <Button Grid.Column="4" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Db" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Db_Click">Db</Button>
+                <Button Grid.Column="5" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sg" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Sg_Click">Sg</Button>
+                <Button Grid.Column="6" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Bh" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Bh_Click">Bh</Button>
+                <Button Grid.Column="7" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Hs" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Hs_Click">Hs</Button>
+                <Button Grid.Column="8" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Mt" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Mt_Click">Mt</Button>
+                <Button Grid.Column="9" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ds" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Ds_Click">Ds</Button>
+                <Button Grid.Column="10" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Rg" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Rg_Click">Rg</Button>
+                <Button Grid.Column="11" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cn" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Cn_Click">Cn</Button>
+                <Button Grid.Column="12" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Nh" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Nh_Click">Nh</Button>
+                <Button Grid.Column="13" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Fl" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Fl_Click">Fl</Button>
+                <Button Grid.Column="14" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Mc" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Mc_Click">Mc</Button>
+                <Button Grid.Column="15" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Lv" Background="#FFF41111" Foreground="#FFFAF5F5" Click="Lv_Click">Lv</Button>
+                <Button Grid.Column="16" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ts" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Ts_Click">Ts</Button>
+                <Button Grid.Column="17" Grid.Row="6"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Og" Background="#FF1350D6" Foreground="#FFFAF5F5" Click="Og_Click">Og</Button>
+
+            </Grid>
+            <Grid Margin="0,2,0,0" Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="87*"/>
+                    <ColumnDefinition Width="713*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <!--Premiere ligne additionnelle-->
+                    <Button Grid.Column="0" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="La" Background="#FFF31111" Foreground="#FFFAF5F5" Click="La_Click">La</Button>
+                    <Button Grid.Column="1" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ce" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Ce_Click">Ce</Button>
+                    <Button Grid.Column="2" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pr" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Pr_Click">Pr</Button>
+                    <Button Grid.Column="3" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Nd" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Nd_Click">Nd</Button>
+                    <Button Grid.Column="4" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pm" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Pm_Click">Pm</Button>
+                    <Button Grid.Column="5" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Sm" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Sm_Click">Sm</Button>
+                    <Button Grid.Column="6" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Eu" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Eu_Click">Eu</Button>
+                    <Button Grid.Column="7" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Gb" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Gd_Click">Gd</Button>
+                    <Button Grid.Column="8" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Tb" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Tb_Click">Tb</Button>
+                    <Button Grid.Column="9" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Dy" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Dy_Click">Dy</Button>
+                    <Button Grid.Column="10" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ho" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Ho_Click">Ho</Button>
+                    <Button Grid.Column="11" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Er" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Er_Click">Er</Button>
+                    <Button Grid.Column="12" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Tm" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Tm_Click">Tm</Button>
+                    <Button Grid.Column="13" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Yb" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Yb_Click">Yb</Button>
+                    <Button Grid.Column="14" Grid.Row="1"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Lu" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Lu_Click">Lu</Button>
+
+                    <!--Deuxieme ligne additionelle-->
+                    <Button Grid.Column="0" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ac" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Ac_Click">Ac</Button>
+                    <Button Grid.Column="1" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Th" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Th_Click">Th</Button>
+                    <Button Grid.Column="2" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pa" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Pa_Click">Pa</Button>
+                    <Button Grid.Column="3" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="U" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Np_Click">U</Button>
+                    <Button Grid.Column="4" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Np" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Np_Click">Np</Button>
+                    <Button Grid.Column="5" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Pu" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Pu_Click">Pu</Button>
+                    <Button Grid.Column="6" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Am" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Am_Click">Am</Button>
+                    <Button Grid.Column="7" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cm" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Cm_Click">Cm</Button>
+                    <Button Grid.Column="8" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Bk" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Bk_Click">Bk</Button>
+                    <Button Grid.Column="9" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Cf" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Cf_Click">Cf</Button>
+                    <Button Grid.Column="10" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Ef" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Es_Click">Es</Button>
+                    <Button Grid.Column="11" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Fm" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Fm_Click">Fm</Button>
+                    <Button Grid.Column="12" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Md" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Md_Click">Md</Button>
+                    <Button Grid.Column="13" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="No" Background="#FFF31111" Foreground="#FFFAF5F5" Click="No_Click">No</Button>
+                    <Button Grid.Column="14" Grid.Row="2"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="10" Name="Lr" Background="#FFF31111" Foreground="#FFFAF5F5" Click="Lr_Click">Lr</Button>
+
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </DockPanel>
+</Window>
